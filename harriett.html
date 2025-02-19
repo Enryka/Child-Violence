@@ -1,36 +1,42 @@
-<html lang="en"><head>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Wix.com Website Builder">
-  
-    <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png" type="image/png">
-    <link rel="shortcut icon" href="https://static.wixstatic.com/media/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png" type="image/png">
-    <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/72069f_9aefb784a64f4dae87b667c87a3d39f4%7Emv2.png" type="image/png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <script nomodule="" src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"></script>
-  <script nomodule="" src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js"></script>
+    <header class="header">
+        <div class="logo-placeholder"></div>
+        <nav class="nav-placeholder"></nav>
+    </header>
 
-  
-    <script nomodule="" src="https://polyfill-fastly.io/v3/polyfill.min.js?features=fetch"></script>
-  
-    <script>
-        (function () {
-          var noop = function noop() {};
-          if ("performance" in window === false) {
-            window.performance = {};
-          }
-          window.performance.mark = performance.mark || noop;
-          window.performance.measure = performance.measure || noop;
-          if ("now" in window.performance === false) {
-            var nowOffset = Date.now();
-            if (performance.timing && performance.timing.navigationStart) {
-              nowOffset = performance.timing.navigationStart;
-            }
-            window.performance.now = function now() {
-              return Date.now() - nowOffset;
-            };
-          }
-        })();
-        </script>
+    <section class="intro">
+        <p>A small intro text about the organization – maybe with some stats</p>
+    </section>
+
+    <section class="why-we-do">
+        <h2>Why we do what we do?</h2>
+        <div class="reasons-container">
+            <div class="reason">Reason 1</div>
+            <div class="reason">Reason 2</div>
+            <div class="reason">Reason 3</div>
+            <div class="reason">Reason 4</div>
+            <div class="reason">Reason 5</div>
+            <div class="reason">Reason 6</div>
+            <div class="reason">Reason 7</div>
+        </div>
+    </section>
+
+    <section class="story">
+        <h2>Our Story</h2>
+        <p>A small intro text about the organization – maybe with some stats</p>
+    </section>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
