@@ -4,28 +4,23 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: black;
 }
 
-/* Header */
-.header {
-    background: #d3d3d3;
-    padding: 20px;
+header {
+    width: 100%;
+    text-align: center;
+    background-color: black; /* Matches the background */
+    padding: 10px 0;
 }
 
-/* Placeholder for logo and navigation */
-.logo-placeholder {
-    width: 100px;
-    height: 20px;
-    background: gray;
-    display: inline-block;
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-.nav-placeholder {
-    width: 300px;
-    height: 20px;
-    background: gray;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 
 /* Intro section */
 .intro {
