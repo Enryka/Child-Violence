@@ -11,14 +11,15 @@ header {
     width: 100%;
     text-align: center;
     background-color: black; /* Matches the background */
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 header img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin-top: -5px; /* Moves it up by 20px */
+    margin-left: 2px;
 }
 
 
