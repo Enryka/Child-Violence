@@ -103,8 +103,9 @@ header img {
 
 /* Intro section */
 .intro {
-    padding: 20px;
-    font-size: 18px;
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 25px;
     color: white;
 }
 

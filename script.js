@@ -1,12 +1,13 @@
 // Data for reasons and placeholder stats
 const reasonsData = [
-    { text: "Reason 1", stats: "Placeholder for Stats 1" },
-    { text: "Reason 2", stats: "Placeholder for Stats 2" },
-    { text: "Reason 3", stats: "Placeholder for Stats 3" },
-    { text: "Reason 4", stats: "Placeholder for Stats 4" },
-    { text: "Reason 5", stats: "Placeholder for Stats 5" },
-    { text: "Reason 6", stats: "Placeholder for Stats 6" },
-    { text: "Reason 7", stats: "Placeholder for Stats 7" }
+    { text: "Systemic Discrimination", stats: "Placeholder for Stats 1" },
+    { text: "False Forensics", stats: "Placeholder for Stats 2" },
+    { text: "Mistaken Identification", stats: "Placeholder for Stats 3" },
+    { text: "Suppression of Exculpatory Evidence", stats: "Placeholder for Stats 4" },
+    { text: "Police Misconduct", stats: "Placeholder for Stats 5" },
+    { text: "False Confessions", stats: "Placeholder for Stats 6" },
+    { text: "Witness Perjury", stats: "Placeholder for Stats 7" },
+    {text: "Ineffective Counsel", stats: "Placeholder for Stats 8"},
 ];
 
 // Select the section where the buttons will be added
