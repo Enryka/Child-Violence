@@ -1,6 +1,23 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .libre-baskerville-bold {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .libre-baskerville-regular-italic {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
     margin: 0;
     padding: 0;
     text-align: center;
@@ -137,57 +154,20 @@ header img {
     background: none;
 }
 .reason-holder {
-    width: 100%;
-    height: fit-content;
-    justify-content: space-around;
-}
-
-.reason {
-    display: inline;
-    color: rgb(33, 172, 116);
-    font-size: 18px;
-
-    margin-right: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.reason:hover {
-    background:  background: rgba(255, 255, 255, 0.2);
-}
-
-.popup {
-    display: none;
-    position: absolute;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    z-index: 10;
-    max-width: 250px;
-}
-
-.popup-content {
-    font-size: 14px;
-    color: #333;
-}
-
-.close-btn {
-    cursor: pointer;
-    float: right;
-    font-size: 18px;
-    color: #666;
-    margin-top: -5px;
-}
-
-.close-btn:hover {
-    color: #333;
+    font-size: 25px;
+    color: white;
+   
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    gap: 10px;
 }
 
 /* Story section */
 .story {
     padding: 40px;
     font-size: 18px;
+    color: #fff;
+    text-align: left;
+  
 }
