@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 start = end;
                 clearInterval(interval);
             }
-            element.textContent = start.toFixed(1); // Ensures 1 decimal place (e.g., 7.2)
+            element.textContent = start.toFixed(0); // Ensures 0 decimal place (e.g., 31 instead of 31.00000000000001)
         }, 30);
     }
 
-    // Select ONLY the "7.2%" element (not "2023")
-    const percentElement = document.querySelector('.count-up[data-value="7.2"]');
+    // Select ONLY the "31" element (not "2023")
+    const percentElement = document.querySelector('.count-up[data-value="31"]');
     if (percentElement) {
-        animateNumber(percentElement, 2000); // Run animation for 2 seconds
+        animateNumber(percentElement, 5000); // Run animation for 5 seconds
     }
 });
