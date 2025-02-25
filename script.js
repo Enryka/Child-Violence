@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select ONLY the "31" element (not "2023")
     const percentElement = document.querySelector('.count-up[data-value="31"]');
     if (percentElement) {
-        animateNumber(percentElement, 5000); // Run animation for 5 seconds
+        animateNumber(percentElement, 4500); // Run animation for 5 seconds
     }
 });
