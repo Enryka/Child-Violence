@@ -68,8 +68,8 @@ header img {
 
 .flip-card-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 20px; /* Space between cards */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 60px; /* Space between cards */
     justify-content: center;
     align-items: center;
     max-width: 1000px;
