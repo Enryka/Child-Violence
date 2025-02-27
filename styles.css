@@ -174,13 +174,14 @@ header img {
     }
 }
 .folder-tab {
-    background: #ccc;
+    background: #790404;
     padding: 15px 25px;
     display: inline-block;
     border-radius: 20px 20px 0 0;
+
     cursor: pointer;
     font-size: smaller;
-    color: #333;
+    color: whitesmoke;
     transition: background 0.3s ease;
     text-align: center;
     pointer-events: auto;
@@ -212,6 +213,82 @@ header img {
     display: none;
 }
 
+/* ✅ Responsive Adjustments */
+@media (max-width: 900px) {
+    /* Reduce font sizes for better readability */
+    .intro {
+        font-size: 24px;
+    }
+
+    .folder-tab {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Ensure content fits smaller screens */
+    body {
+        padding: 10px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    /* Make flip cards smaller */
+    .flip-card {
+        max-width: 220px;
+        height: 230px;
+    }
+
+    .flip-card-container {
+        gap: 20px;
+    }
+
+    /* Make tabs stack on smaller screens */
+    .folder-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .folder-tab {
+        width: 90%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .viz-box {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust for mobile */
+    .c-btn {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+
+    .flip-card {
+        max-width: 180px;
+        height: 220px;
+    }
+
+    .folder-tab {
+        font-size: 14px;
+    }
+
+    /* Ensure visualization fits mobile screens */
+    .viz-box {
+        width: 100%;
+        min-height: 250px;
+    }
+}
 
 
 
