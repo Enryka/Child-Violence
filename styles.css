@@ -178,43 +178,74 @@ header img {
 }
 
 /* Story section */
-.story {
-    padding: 40px;
-    font-size: 18px;
-    color: #fff;
-    text-align: left;
-  
+
+/* Folder Container */
+.folder-container {
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+    top: 60px;
+    bottom: 60px;
+    position: relative;
+    text-align: center;
+
 }
 
-.visualization-holder {
-    width: 80%; /* Adjust width as needed */
-    height: 400px; /* Placeholder height */
-    background-color: rgba(255, 255, 255, 0.1); /* Subtle transparent background */
-    border: 2px dashed white; /* Dashed border for placeholder effect */
+/* Folder Tab as Button */
+
+.folder-tabs {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
-    margin: auto;
+    justify-content: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: -60px; /* Lower it slightly so it sits like a folder tab */
+    left: 2%;
+    z-index: 1; /* Ensure it’s behind the viz box */
+    width: 80%;
+    pointer-events: auto; /* Ensure it’s still clickable */
+
+}
+.folder-tab {
+    background: #ccc;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+    font-size: smaller;
+    color: #333;
+    transition: background 0.3s ease;
+    text-align: center;
+    pointer-events: auto;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); 
 }
 
-#buttons-container {
-    margin-bottom: 20px;
-  }
-  
-  #buttons-container button {
-    margin-right: 10px;
-    padding: 8px 16px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  #chart {
-    background-color: #fff;
-    display: inline-block;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  }
+.folder-tab:hover {
+    background: #aaa;
+}
+
+/* Visualization Box */
+.viz-box {
+    background: white;
+    height: 100%;
+    border: 2px solid #ccc;
+    bottom: 60px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-height: 300px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+/* Images inside the visualization box */
+.story-image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+
+
 
   
