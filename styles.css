@@ -226,6 +226,95 @@ header img {
     display: none;
 }
 
+footer {
+    color: pink;
+    text-align: center;
+    padding: 0; /* Remove extra padding */
+    border-top: none; /* Remove the white border if needed */
+    margin: 0;
+}
+
+.get-involved {
+    width: 100%; /* Ensure full width */
+    padding: 0;
+}
+
+.get-involved h2 {
+    color: white !important; 
+    text-align: center !important; 
+    padding: 20px;
+    font-size: 35px;
+    margin: 0; /* Remove unwanted spacing */
+}
+.meeting-container {
+    width: 100vw;
+    background-color: #ae1414; /* Red background */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Centers text inside */
+    color: white; /* Makes text readable */
+    margin: 0 auto; /* Center it */
+}
+
+
+/* 🔹 Styling for Get Involved & Stay Connected Sections */
+.get-involved, .stay-connected {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.get-involved h2, .stay-connected h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.get-involved p, .stay-connected p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* 🔹 Button Styling */
+.btn-primary {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 🔹 Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+
+
 /* ✅ Responsive Adjustments */
 @media (max-width: 900px) {
     /* Reduce font sizes for better readability */
@@ -314,13 +403,6 @@ header img {
     }
 }
 
-footer {
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #ccc;
-}
 
 
   
