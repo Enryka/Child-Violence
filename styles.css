@@ -278,6 +278,14 @@ header img {
         padding: 15px;
     }
 }
+ /* Make each caption only show with corresponding visual */
+.viz-item {
+    display: none;
+}
+
+.viz-item[data-index="0"] {
+    display: block;
+}
 
 @media (max-width: 480px) {
     /* Adjust for mobile */

@@ -45,3 +45,32 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show the first image by default
     showImage(0);
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".folder-tab");
+    const visuals = document.querySelectorAll(".viz-item");
+
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            const index = tab.getAttribute("data-index");
+
+            // Hide all visuals
+            visuals.forEach(visual => {
+                visual.style.display = "none";
+            });
+
+            // Show the corresponding visual
+            const correspondingVisual = document.querySelector(`.viz-item[data-index="${index}"]`);
+            if (correspondingVisual) {
+                correspondingVisual.style.display = "block";
+            }
+
+            // Remove active class from all tabs
+            tabs.forEach(t => t.classList.remove("active"));
+
+            // Add active class to clicked tab
+            tab.classList.add("active");
+        });
+    });
+});
